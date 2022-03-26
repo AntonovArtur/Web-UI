@@ -134,29 +134,29 @@ public class UserPage extends BasePage {
 
     @Step("Выбрать пункт Обслуживание")
     public UserPage clickOnServiceRadioButton() {
-        waitForElementToClick(serviceDiv.findElement(By.xpath("label"))).click();
-        //clickToElement(serviceDiv.findElement(By.xpath("label")));
+        //waitForElementToClick(serviceDiv.findElement(By.xpath("label"))).click();
+        clickToElement(serviceDiv.findElement(By.xpath("label")));
         Assertions.assertTrue(serviceDiv.findElement(By.xpath("input")).isSelected());
         return this;
     }
 
     @Step("Выбрать пункт Атмосфера")
     public UserPage clickOnVibeRadioButton() {
-        waitForElementToClick(vibeDiv.findElement(By.xpath("label"))).click();
+        clickToElement(vibeDiv.findElement(By.xpath("label")));
         Assertions.assertTrue(vibeDiv.findElement(By.xpath("input")).isSelected());
         return this;
     }
 
     @Step("Выбрать пункт Качество блюд")
     public UserPage clickOnQualityDishesRadioButton() {
-        waitForElementToClick(qualityDishesDiv.findElement(By.xpath("label"))).click();
+        clickToElement(qualityDishesDiv.findElement(By.xpath("label")));
         Assertions.assertTrue(qualityDishesDiv.findElement(By.xpath("input")).isSelected());
         return this;
     }
 
     @Step("Выбрать пункт Чистота")
     public UserPage clickOnPurenessRadioButton() {
-        waitForElementToClick(purenessDiv.findElement(By.xpath("label"))).click();
+        clickToElement(purenessDiv.findElement(By.xpath("label")));
         Assertions.assertTrue(purenessDiv.findElement(By.xpath("input")).isSelected());
         return this;
     }
@@ -171,47 +171,35 @@ public class UserPage extends BasePage {
 
     @Step("Клик по 2-й звезде")
     public UserPage clickOnSecondStar() {
-        waitForElementToClick(secondStar);
-        Allure.addAttachment("Скриншот перед кликом",
-                new ByteArrayInputStream(((TakesScreenshot) super.driver).getScreenshotAs(OutputType.BYTES)));
-        secondStar.click();
+        clickToElement(secondStar);
         Assertions.assertTrue(waitForElement(optionsWrapper).isDisplayed());
         return this;
     }
 
     @Step("Клик по 3-й звезде")
     public UserPage clickOnThirdStar() {
-        waitForElementToClick(thirdStar);
-        Allure.addAttachment("Скриншот перед кликом",
-                new ByteArrayInputStream(((TakesScreenshot) super.driver).getScreenshotAs(OutputType.BYTES)));
-        thirdStar.click();
+        clickToElement(thirdStar);
         Assertions.assertTrue(waitForElement(optionsWrapper).isDisplayed());
         return this;
     }
 
     @Step("Клик по 4-й звезде")
     public UserPage clickOnFourthStar() {
-        waitForElementToClick(fourthStar);
-        Allure.addAttachment("Скриншот перед кликом",
-                new ByteArrayInputStream(((TakesScreenshot) super.driver).getScreenshotAs(OutputType.BYTES)));
-        fourthStar.click();
+        clickToElement(fourthStar);
         Assertions.assertTrue(waitForElement(hintsDiv).isDisplayed());
         return this;
     }
 
     @Step("Клик по 5-й звезде")
     public UserPage clickOnFifthStar() {
-        waitForElementToClick(fifthStar);
-        Allure.addAttachment("Скриншот перед кликом",
-                new ByteArrayInputStream(((TakesScreenshot) super.driver).getScreenshotAs(OutputType.BYTES)));
-        fifthStar.click();
+        clickToElement(fifthStar);
         Assertions.assertTrue(waitForElement(hintsDiv).isDisplayed());
         return this;
     }
 
     @Step("Клик по ссылке пользовательского соглашения")
     public UserPage clickOnUserAgreementLink() {
-        waitForElement(userAgreementLink).click();
+        clickToElement(userAgreementLink);
         Assertions.assertEquals(USER_AGREEMENT_TITLE_EXPECTED, waitForElement(userAgreementTitle).getText());
         return this;
     }
@@ -219,7 +207,7 @@ public class UserPage extends BasePage {
     @Step("Проверка чекбокса издержки")
     public UserPage clickOnUserCommissionCheckbox() {
         System.out.println(waitForHiddenElement(USER_COMMISSION_CHECKBOX_HIDDEN).isSelected());
-        waitForElement(userCommissionCheckbox).click();
+        clickToElement(userCommissionCheckbox);
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
@@ -233,7 +221,7 @@ public class UserPage extends BasePage {
     @Step("Проверка чекбокса соглашений")
     public UserPage clickOnPersonalDataAgreementCheckbox() {
         System.out.println(waitForHiddenElement(PERSONAL_DATA_AGREEMENT_CHECKBOX_HIDDEN).isSelected());
-        waitForElementToClick(personalDataAgreementCheckbox).click();
+        clickToElement(personalDataAgreementCheckbox);
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
@@ -246,7 +234,7 @@ public class UserPage extends BasePage {
 
     @Step("Клик по ссылке Политика обработки персональных данных")
     public UserPage clickOnPersonalDataAgreementLink() {
-        waitForElementToClick(personalDataAgreementLink).click();
+        clickToElement(personalDataAgreementLink);
         Assertions.assertEquals(PERSONAL_DATA_AGREEMENT_TITLE_EXPECTED, waitForElement(personalDataAgreementTitle).getText());
         return this;
     }
@@ -255,7 +243,7 @@ public class UserPage extends BasePage {
     public UserPage clickDeleteSum() {
         webDriverWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(TIPS_PLACEHOLDER)));
         System.out.println("sum is: " + tipsPlaceholder.getAttribute("value"));
-        waitForElementToClick(deleteSum).click();
+        clickToElement(deleteSum);
         System.out.println("sum is: " + tipsPlaceholder.getAttribute("value"));
         Assertions.assertEquals("", tipsPlaceholder.getAttribute("value"));
         return this;
@@ -294,25 +282,25 @@ public class UserPage extends BasePage {
 
     @Step("Клик первой кнопки суммы")
     public UserPage clickSumButton_1() {
-        waitForElement(sumButton_1).click();
+        clickToElement(sumButton_1);
         return this;
     }
 
     @Step("Клик второй кнопки суммы")
     public UserPage clickSumButton_2() {
-        waitForElement(sumButton_2).click();
+        clickToElement(sumButton_2);
         return this;
     }
 
     @Step("Клик 3-й кнопки суммы")
     public UserPage clickSumButton_3() {
-        waitForElement(sumButton_3).click();
+        clickToElement(sumButton_3);
         return this;
     }
 
     @Step("Клик 4-й кнопки суммы")
     public UserPage clickSumButton_4() {
-        waitForElement(sumButton_3).click();
+        clickToElement(sumButton_3);
         return this;
     }
     @Step("Клик по кнопке рассказать подробнее")
