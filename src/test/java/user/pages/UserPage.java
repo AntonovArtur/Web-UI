@@ -1,13 +1,14 @@
 package user.pages;
 
+import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import user.BasePage;
+
+import java.io.ByteArrayInputStream;
 
 public class UserPage extends BasePage {
     //TODO: вытащить ожидаемый результат в отдельный файл, подумать о привязке учетки к ож резу
@@ -170,28 +171,40 @@ public class UserPage extends BasePage {
 
     @Step("Клик по 2-й звезде")
     public UserPage clickOnSecondStar() {
-        waitForElementToClick(secondStar).click();
+        waitForElementToClick(secondStar);
+        Allure.addAttachment("Скриншот перед кликом",
+                new ByteArrayInputStream(((TakesScreenshot) super.driver).getScreenshotAs(OutputType.BYTES)));
+        secondStar.click();
         Assertions.assertTrue(waitForElement(optionsWrapper).isDisplayed());
         return this;
     }
 
     @Step("Клик по 3-й звезде")
     public UserPage clickOnThirdStar() {
-        waitForElementToClick(thirdStar).click();
+        waitForElementToClick(thirdStar);
+        Allure.addAttachment("Скриншот перед кликом",
+                new ByteArrayInputStream(((TakesScreenshot) super.driver).getScreenshotAs(OutputType.BYTES)));
+        thirdStar.click();
         Assertions.assertTrue(waitForElement(optionsWrapper).isDisplayed());
         return this;
     }
 
     @Step("Клик по 4-й звезде")
     public UserPage clickOnFourthStar() {
-        waitForElementToClick(fourthStar).click();
+        waitForElementToClick(fourthStar);
+        Allure.addAttachment("Скриншот перед кликом",
+                new ByteArrayInputStream(((TakesScreenshot) super.driver).getScreenshotAs(OutputType.BYTES)));
+        fourthStar.click();
         Assertions.assertTrue(waitForElement(hintsDiv).isDisplayed());
         return this;
     }
 
     @Step("Клик по 5-й звезде")
     public UserPage clickOnFifthStar() {
-        waitForElementToClick(fifthStar).click();
+        waitForElementToClick(fifthStar);
+        Allure.addAttachment("Скриншот перед кликом",
+                new ByteArrayInputStream(((TakesScreenshot) super.driver).getScreenshotAs(OutputType.BYTES)));
+        fifthStar.click();
         Assertions.assertTrue(waitForElement(hintsDiv).isDisplayed());
         return this;
     }
