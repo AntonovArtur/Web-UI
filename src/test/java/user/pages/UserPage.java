@@ -305,6 +305,7 @@ public class UserPage extends BasePage {
     }
     @Step("Клик по кнопке рассказать подробнее")
     public UserPage checkAddFeedbackBtn (){
+
         clickToElement(addFeedbackBtn);
         Assertions.assertTrue(waitForElement(textAreaComment).isDisplayed());
         return this;
@@ -316,5 +317,8 @@ public class UserPage extends BasePage {
                 .sendKeys("TEST TEST T E S T TEST TEST TEST T E S T");
         Assertions.assertEquals(text, textAreaComment.getAttribute("value"));
         return this;
+
     }
+
+
 }
