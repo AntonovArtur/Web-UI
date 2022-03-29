@@ -33,6 +33,6 @@ jobs:
         with: 
           ACCESS_TOKEN: ${{ secrets.TOKEN }}
           BRANCH: test
-          FOLDER: /
+          FOLDER: /Users/runner/work/Web-UI/Web-UI/target/
           TARGET_FOLDER: docs
         
