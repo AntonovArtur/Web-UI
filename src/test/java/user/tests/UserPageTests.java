@@ -35,8 +35,8 @@ public class UserPageTests {
 
     @BeforeEach
     void initDriver() {
-        driver = new ChromeDriver(options);
-        //driver = new EventFiringDecorator(new CustomLogger()).decorate(new ChromeDriver(options));
+        //driver = new ChromeDriver(options);
+        driver = new EventFiringDecorator(new CustomLogger()).decorate(new ChromeDriver(options));
         //driver.manage().window().maximize();
         //driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(duration);
