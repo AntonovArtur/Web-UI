@@ -22,6 +22,7 @@ public class UserPageTests {
     private static ChromeOptions options = new ChromeOptions();
     private Duration duration = Duration.ofSeconds(5);
 
+
     @BeforeAll
     static void registerDriver() {
         //WebDriverManager.chromedriver().setup();
