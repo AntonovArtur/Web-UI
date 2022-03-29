@@ -14,6 +14,7 @@ import org.openqa.selenium.support.events.EventFiringDecorator;
 import user.pages.UserPage;
 import java.io.ByteArrayInputStream;
 import java.time.Duration;
+import java.util.Properties;
 
 
 public class UserPageTests {
@@ -24,7 +25,7 @@ public class UserPageTests {
     @BeforeAll
     static void registerDriver() {
         //WebDriverManager.chromedriver().setup();
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver",new  Properties(System.getProperties()).getProperty("user.dir") + "src/main/resources/chromedriver");
         options.setPageLoadStrategy(PageLoadStrategy.NONE);
         options.addArguments("--dns-prefetch-disable",/* "--window-size=600,920", */"--ignore-certificate-errors");
         options.addArguments("--headless","--disable-gpu","--lang=ru");
