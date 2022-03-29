@@ -12,10 +12,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 import user.pages.UserPage;
-
 import java.io.ByteArrayInputStream;
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
+
 
 public class UserPageTests {
     WebDriver driver;
@@ -28,13 +27,13 @@ public class UserPageTests {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
         options.setPageLoadStrategy(PageLoadStrategy.NONE);
         options.addArguments("--dns-prefetch-disable",/* "--window-size=600,920", */"--ignore-certificate-errors");
-        //options.addArguments("--headless"/*,"--disable-gpu","--lang=ru"*/);
+        options.addArguments("--headless","--disable-gpu","--lang=ru");
     }
 
     @BeforeEach
     void initDriver() {
         driver = new EventFiringDecorator(new CustomLogger()).decorate(new ChromeDriver(options));
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
         //driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(duration);
         driver.get(Endpoints.WAITER_URL);
