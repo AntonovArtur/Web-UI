@@ -264,7 +264,7 @@ public class UserPageTests {
 //        new CustomLogger().beforeQuit(driver);
 //    }
 //
-//
+
     @AfterEach
     void closeDriver() {
         driver.close();
