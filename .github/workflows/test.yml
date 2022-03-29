@@ -22,4 +22,7 @@ jobs:
       - name: Allure
         if: always()
         uses: actions/upload-artifact@v1
+        with:
+          name: allure-report
+          path: ./allure-report
         
