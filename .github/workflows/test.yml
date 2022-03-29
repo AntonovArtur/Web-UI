@@ -33,6 +33,6 @@ jobs:
         with: 
           ACCESS_TOKEN: ${{ secrets.token }}
           BRANCH: test
-          FOLDER: allure-report
+          FOLDER: /
           TARGET_FOLDER: docs
         
