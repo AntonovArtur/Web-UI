@@ -29,13 +29,14 @@ public class UserPageTests {
         System.setProperty("webdriver.chrome.driver",new  Properties(System.getProperties()).getProperty("user.dir") + "/src/main/resources/chromedriver");
         options.setPageLoadStrategy(PageLoadStrategy.NONE);
         options.addArguments("--dns-prefetch-disable",/* "--window-size=600,920", */"--ignore-certificate-errors");
-        options.addArguments("--headless","--disable-gpu","--lang=ru");
+        options.addArguments("--headless","--disable-gpu","--lang=ru","--no-sandbox");
 
     }
 
     @BeforeEach
     void initDriver() {
-        driver = new EventFiringDecorator(new CustomLogger()).decorate(new ChromeDriver(options));
+        driver = new ChromeDriver(options);
+        //driver = new EventFiringDecorator(new CustomLogger()).decorate(new ChromeDriver(options));
         //driver.manage().window().maximize();
         //driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(duration);
