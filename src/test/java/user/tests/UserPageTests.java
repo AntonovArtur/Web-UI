@@ -82,27 +82,27 @@ public class UserPageTests {
         new UserPage(driver)
                 .checkSumButton_3();
     }
-//
-//    @DisplayName("Клик по ссылке пользовательского соглашения")
-//    @Test
-//    public void userAgreementLinkTest() {
-//        Allure.addAttachment("Скриншот страницы",
-//                new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-//        new UserPage(driver)
-//                .clickOnUserAgreementLink();
-//        new CustomLogger().beforeQuit(driver);
-//    }
-//
-//    @DisplayName("Клик по ссылке Политика обработки персональных данных")
-//    @Test
-//    public void personalDataAgreementLinkTest() {
-//        Allure.addAttachment("Скриншот страницы",
-//                new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-//        new UserPage(driver)
-//                .clickOnPersonalDataAgreementLink();
-//        new CustomLogger().beforeQuit(driver);
-//    }
-//
+
+    @DisplayName("Клик по ссылке пользовательского соглашения")
+    @Test
+    public void userAgreementLinkTest() {
+        Allure.addAttachment("Скриншот страницы",
+                new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        new UserPage(driver)
+                .clickOnUserAgreementLink();
+        new CustomLogger().beforeQuit(driver);
+    }
+
+    @DisplayName("Клик по ссылке Политика обработки персональных данных")
+    @Test
+    public void personalDataAgreementLinkTest() {
+        Allure.addAttachment("Скриншот страницы",
+                new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        new UserPage(driver)
+                .clickOnPersonalDataAgreementLink();
+        new CustomLogger().beforeQuit(driver);
+    }
+
 //    @DisplayName("Проверка чекбокса издержки")
 //    @Test
 //    public void userCommissionCheckboxTest() {
