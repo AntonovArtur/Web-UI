@@ -1,12 +1,13 @@
 package user;
 
-import io.qameta.allure.Allure;
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.ByteArrayInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -15,12 +16,14 @@ import java.util.Properties;
 
 public class BasePage {
     public WebDriver driver;
+    public Actions actions;
     public WebDriverWait webDriverWait;
     protected static Properties properties = new Properties();
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
         webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        actions = new Actions(driver);
         PageFactory.initElements(driver, this);
     }
 
@@ -46,12 +49,9 @@ public class BasePage {
     }
 
     public void clickToElement(WebElement e){
-        waitForElementToClick(e);
-        Allure.addAttachment("Скриншот перед кликом",
-                new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        e.click();
+        waitForElementToClick(e).click();
     }
-    public String getTextOfElement(WebElement e){
+    public String getTextOfElement (WebElement e){
         waitForElement(e);
         return e.getText();
     }
