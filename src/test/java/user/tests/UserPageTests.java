@@ -28,6 +28,7 @@ public class UserPageTests {
         options.setPageLoadStrategy(PageLoadStrategy.NONE);
         options.addArguments("--dns-prefetch-disable",/* "--window-size=600,920", */"--ignore-certificate-errors");
         options.addArguments("--headless","--disable-gpu","--lang=ru");
+
     }
 
     @BeforeEach
