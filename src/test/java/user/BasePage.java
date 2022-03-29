@@ -14,7 +14,7 @@ import java.time.Duration;
 import java.util.Properties;
 
 public class BasePage {
-    WebDriver driver;
+    public WebDriver driver;
     public WebDriverWait webDriverWait;
     protected static Properties properties = new Properties();
 
