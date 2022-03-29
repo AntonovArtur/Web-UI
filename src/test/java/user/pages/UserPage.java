@@ -7,6 +7,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import user.BasePage;
+import user.tests.PayByCardPage;
 
 import java.io.ByteArrayInputStream;
 
@@ -53,7 +54,7 @@ public class UserPage extends BasePage {
     private final static String QUALITY_DISHES_DIV = "//div[@class='option' and .='Качество блюд']";
     private final static String PURENESS_DIV = "//div[@class='option' and .='Чистота']";
     private final static String FEEDBACK_PLACEHOLDER = "//textarea[@class='feedback__textarea equiring__textarea ng-pristine ng-valid ng-touched']";
-    private final static String HINTS_DIV ="//div[@class='hints']";
+    private final static String HINTS_DIV = "//div[@class='hints']";
     private final static String PRETTY_PURENESS_BUTTON = "//label[@for='739e3890-e89b-12d3-a456-3489554423w8']";
     private final static String TASTY_FOOD_BUTTON = "//label[@for='739e3890-e89b-12d3-a456-3489554423a2']";
     private final static String GOOD_ATMOSPHERE_BUTTON = "//label[@for='321e7589-e89b-12d3-a456-4266554423k3']";
@@ -66,6 +67,8 @@ public class UserPage extends BasePage {
     private final static String OPTIONS_WRAPPER = "//div[@class='options-wrapper']";
     private final static String ADD_FEEDBACK_BTN = "//span[@class='add-feedback-btn']";
     private final static String TEXTAREA_COMMENT = "//textarea[@id='comment']";
+    private final static String PAY_BY_CARD_BTN = "//button[@class='tip-btn _card']";
+
 
     /*
     кликабельные
@@ -127,9 +130,18 @@ public class UserPage extends BasePage {
     WebElement personalDataAgreementCheckboxHidden;
     @FindBy(xpath = OPTIONS_WRAPPER)
     WebElement optionsWrapper;
+    @FindBy(xpath = PAY_BY_CARD_BTN)
+    WebElement payByCardBtn;
 
     public UserPage(WebDriver driver) {
         super(driver);
+    }
+
+    @Step("Клик по кнопке Оплатить картой")
+    public PayByCardPage clickOnPayByCardBtn() {
+        clickToElement(payByCardBtn);
+        return new PayByCardPage(super.driver)
+                .checkCardLabelText();
     }
 
     @Step("Выбрать пункт Обслуживание")
@@ -200,7 +212,7 @@ public class UserPage extends BasePage {
     @Step("Клик по ссылке пользовательского соглашения")
     public UserPage clickOnUserAgreementLink() {
         clickToElement(userAgreementLink);
-        Assertions.assertEquals(USER_AGREEMENT_TITLE_EXPECTED, waitForElement(userAgreementTitle).getText());
+        Assertions.assertEquals(USER_AGREEMENT_TITLE_EXPECTED, getTextOfElement(userAgreementTitle));
         return this;
     }
 
@@ -263,6 +275,7 @@ public class UserPage extends BasePage {
 
     @Step("Текст второй кнопки суммы")
     public UserPage checkSumButton_2() throws InterruptedException {
+        System.out.println(waitForElement(sumButton_2).getSize());
         Assertions.assertEquals("13%", waitForElement(sumButton_2).getText());
         return this;
     }
@@ -303,15 +316,17 @@ public class UserPage extends BasePage {
         clickToElement(sumButton_3);
         return this;
     }
+
     @Step("Клик по кнопке рассказать подробнее")
-    public UserPage checkAddFeedbackBtn (){
+    public UserPage checkAddFeedbackBtn() {
 
         clickToElement(addFeedbackBtn);
         Assertions.assertTrue(waitForElement(textAreaComment).isDisplayed());
         return this;
     }
+
     @Step("Ввод комментария")
-    public UserPage checkTextArea (){
+    public UserPage checkTextArea() {
         String text = "TEST TEST T E S T TEST TEST TEST T E S T";
         waitForElement(textAreaComment)
                 .sendKeys("TEST TEST T E S T TEST TEST TEST T E S T");

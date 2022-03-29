@@ -51,4 +51,8 @@ public class BasePage {
                 new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         e.click();
     }
+    public String getTextOfElement(WebElement e){
+        waitForElement(e);
+        return e.getText();
+    }
 }

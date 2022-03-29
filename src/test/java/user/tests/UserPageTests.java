@@ -28,7 +28,7 @@ public class UserPageTests {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
         options.setPageLoadStrategy(PageLoadStrategy.NONE);
         options.addArguments("--dns-prefetch-disable",/* "--window-size=600,920", */"--ignore-certificate-errors");
-        options.addArguments("--headless","--disable-gpu","--lang=ru");
+        //options.addArguments("--headless"/*,"--disable-gpu","--lang=ru"*/);
     }
 
     @BeforeEach
@@ -249,6 +249,14 @@ public class UserPageTests {
                 .clickOnFifthStar()
                 .checkAddFeedbackBtn()
                 .checkTextArea();
+        new CustomLogger().beforeQuit(driver);
+    }
+
+    @DisplayName("Клик по кнопке Оплатить картой")
+    @Test
+    public void clickOnPayByCardBtn() {
+        new UserPage(driver)
+                .clickOnPayByCardBtn();
         new CustomLogger().beforeQuit(driver);
     }
 
