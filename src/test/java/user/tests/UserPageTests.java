@@ -56,7 +56,7 @@ public class UserPageTests {
 
     @DisplayName("Текст 1-й кнопки суммы")
     @Test
-    public void checkSumButton_1() throws InterruptedException {
+    public void checkSumButton_1() {
 
         new UserPage(driver)
                 .checkSumButton_1();
@@ -64,23 +64,23 @@ public class UserPageTests {
 
     @DisplayName("Текст 2-й кнопки суммы")
     @Test
-    public void checkSumButton_2() throws InterruptedException {
+    public void checkSumButton_2() {
         new UserPage(driver)
                 .checkSumButton_2();
     }
 
     @DisplayName("Текст 3-й кнопки суммы")
     @Test
-    public void checkSumButton_3() throws InterruptedException {
+    public void checkSumButton_3() {
         new UserPage(driver)
                 .checkSumButton_3();
     }
 
     @DisplayName("Текст 4-й кнопки суммы")
     @Test
-    public void checkSumButton_4() throws InterruptedException {
+    public void checkSumButton_4() {
         new UserPage(driver)
-                .checkSumButton_3();
+                .checkSumButton_4();
     }
 
     @DisplayName("Клик по ссылке пользовательского соглашения")

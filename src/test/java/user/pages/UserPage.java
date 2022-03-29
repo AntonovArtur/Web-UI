@@ -220,11 +220,6 @@ public class UserPage extends BasePage {
     public UserPage clickOnUserCommissionCheckbox() {
         System.out.println(waitForHiddenElement(USER_COMMISSION_CHECKBOX_HIDDEN).isSelected());
         clickToElement(userCommissionCheckbox);
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         System.out.println(waitForHiddenElement(USER_COMMISSION_CHECKBOX_HIDDEN).isSelected());
         //Assertions.assertEquals(USER_AGREEMENT_TITLE_EXPECTED, waitForElement(userAgreementTitle).getText());
         return this;
@@ -234,11 +229,6 @@ public class UserPage extends BasePage {
     public UserPage clickOnPersonalDataAgreementCheckbox() {
         System.out.println(waitForHiddenElement(PERSONAL_DATA_AGREEMENT_CHECKBOX_HIDDEN).isSelected());
         clickToElement(personalDataAgreementCheckbox);
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         System.out.println(waitForHiddenElement(PERSONAL_DATA_AGREEMENT_CHECKBOX_HIDDEN).isSelected());
         //Assertions.assertEquals(USER_AGREEMENT_TITLE_EXPECTED, waitForElement(userAgreementTitle).getText());
         return this;
@@ -262,32 +252,32 @@ public class UserPage extends BasePage {
     }
 
     @Step("Проверка имени юзера")
-    public UserPage checkUserName() throws InterruptedException {
+    public UserPage checkUserName() {
         Assertions.assertEquals(userNameExpected, waitForElement(userName).getText());
         return this;
     }
 
     @Step("Текст первой кнопки суммы")
-    public UserPage checkSumButton_1() throws InterruptedException {
+    public UserPage checkSumButton_1()  {
         Assertions.assertEquals("14%", waitForElement(sumButton_1).getText());
         return this;
     }
 
     @Step("Текст второй кнопки суммы")
-    public UserPage checkSumButton_2() throws InterruptedException {
+    public UserPage checkSumButton_2() {
         System.out.println(waitForElement(sumButton_2).getSize());
         Assertions.assertEquals("13%", waitForElement(sumButton_2).getText());
         return this;
     }
 
     @Step("Текст 3-й кнопки суммы")
-    public UserPage checkSumButton_3() throws InterruptedException {
+    public UserPage checkSumButton_3() {
         Assertions.assertEquals("12%", waitForElement(sumButton_3).getText());
         return this;
     }
 
     @Step("Текст 4-й кнопки суммы")
-    public UserPage checkSumButton_4() throws InterruptedException {
+    public UserPage checkSumButton_4()  {
         Assertions.assertEquals("11%", waitForElement(sumButton_4).getText());
         return this;
     }
