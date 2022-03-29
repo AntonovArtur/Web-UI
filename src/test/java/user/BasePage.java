@@ -51,4 +51,8 @@ public class BasePage {
     public void clickToElement(WebElement e){
         waitForElementToClick(e).click();
     }
+    public String getTextOfElement (WebElement e){
+        waitForElement(e);
+        return e.getText();
+    }
 }
