@@ -269,7 +269,6 @@ public class UserPageTests {
     void closeDriver() {
         driver.close();
         try {
-
             Thread.sleep(200);
         } catch (InterruptedException e) {
             e.printStackTrace();
