@@ -4,351 +4,351 @@
     "name" : "user.tests.UserPageTests",
     "children" : [ {
       "name" : "Удаление суммы",
-      "uid" : "9f4e2161ef16e977",
+      "uid" : "6407892e33c56c8",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671579953,
-        "stop" : 1648671590565,
-        "duration" : 10612
+        "start" : 1648671933652,
+        "stop" : 1648671945236,
+        "duration" : 11584
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Выбрать пункт Обслуживание",
-      "uid" : "30c6a505d969ca82",
+      "uid" : "e004546c9d430460",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671590721,
-        "stop" : 1648671595284,
-        "duration" : 4563
+        "start" : 1648671945364,
+        "stop" : 1648671949946,
+        "duration" : 4582
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Проверка имени юзера",
-      "uid" : "419313dcc80fd21",
+      "uid" : "d367652650a2cf7d",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671595289,
-        "stop" : 1648671600511,
-        "duration" : 5222
+        "start" : 1648671949951,
+        "stop" : 1648671955146,
+        "duration" : 5195
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Клик по кнопке рассказать подробнее (4 звезды)",
-      "uid" : "c468643948acaacb",
+      "uid" : "156e99950ccdfd52",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671600519,
-        "stop" : 1648671605115,
-        "duration" : 4596
+        "start" : 1648671955156,
+        "stop" : 1648671959864,
+        "duration" : 4708
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Выбрать пункт Качество блюд",
-      "uid" : "e70fc2215bb05a6c",
+      "uid" : "bf483b8ee07e39cd",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671605119,
-        "stop" : 1648671609551,
-        "duration" : 4432
+        "start" : 1648671959868,
+        "stop" : 1648671964294,
+        "duration" : 4426
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Клик по ссылке Политика обработки персональных данных",
-      "uid" : "2206c099f19e8ad4",
+      "uid" : "502cd47f33f30a3d",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671609557,
-        "stop" : 1648671614724,
-        "duration" : 5167
+        "start" : 1648671964299,
+        "stop" : 1648671969226,
+        "duration" : 4927
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Клик по кнопке Оплатить картой",
-      "uid" : "31f70d37cd1da0ff",
+      "uid" : "e244b33434215813",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671614729,
-        "stop" : 1648671622658,
-        "duration" : 7929
+        "start" : 1648671969230,
+        "stop" : 1648671977069,
+        "duration" : 7839
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Проверка чекбокса издержки",
-      "uid" : "bcb4f45c3d7535d0",
+      "uid" : "744d6bb46e62f9",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671622664,
-        "stop" : 1648671626696,
-        "duration" : 4032
+        "start" : 1648671977077,
+        "stop" : 1648671981216,
+        "duration" : 4139
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Клик по 3-й звезде",
-      "uid" : "ab14b69bd9b5ed07",
+      "uid" : "6bab4c40dd577945",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671626702,
-        "stop" : 1648671630824,
-        "duration" : 4122
+        "start" : 1648671981222,
+        "stop" : 1648671985351,
+        "duration" : 4129
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Выбрать пункт Чистота",
-      "uid" : "2e7981b740466fc3",
+      "uid" : "8b3db77d36aa1fe2",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671630992,
-        "stop" : 1648671635272,
-        "duration" : 4280
+        "start" : 1648671985356,
+        "stop" : 1648671989726,
+        "duration" : 4370
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Оставить комментарий (2 звезды)",
-      "uid" : "212aa6a93f736c14",
+      "uid" : "7059433ebea542da",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671635279,
-        "stop" : 1648671640116,
-        "duration" : 4837
+        "start" : 1648671989732,
+        "stop" : 1648671994349,
+        "duration" : 4617
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Оставить комментарий (1 звездa)",
-      "uid" : "7329a7ea2ea7e1ba",
+      "uid" : "beacf8e1b91c2af8",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671640121,
-        "stop" : 1648671645052,
-        "duration" : 4931
+        "start" : 1648671994395,
+        "stop" : 1648671999063,
+        "duration" : 4668
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Клик по кнопке рассказать подробнее (5 звезд)",
-      "uid" : "1da7976f35868eaf",
+      "uid" : "8db16ed4d2d381d6",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671645056,
-        "stop" : 1648671649599,
-        "duration" : 4543
+        "start" : 1648671999066,
+        "stop" : 1648672004351,
+        "duration" : 5285
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Оставить комментарий (5 звезд)",
-      "uid" : "3fb3fc4dc85e178",
+      "uid" : "b9c8d38a1a458df3",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671649604,
-        "stop" : 1648671654551,
-        "duration" : 4947
+        "start" : 1648672004356,
+        "stop" : 1648672013557,
+        "duration" : 9201
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Клик по 2-й звезде",
-      "uid" : "b48d20babc0a2ebe",
+      "uid" : "9a9e580b8b43552c",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671654556,
-        "stop" : 1648671659766,
-        "duration" : 5210
+        "start" : 1648672013684,
+        "stop" : 1648672021286,
+        "duration" : 7602
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Оставить комментарий (3 звезды)",
-      "uid" : "74fbac085cba0343",
+      "uid" : "8b506d0c18bb64cc",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671659898,
-        "stop" : 1648671667248,
-        "duration" : 7350
+        "start" : 1648672021416,
+        "stop" : 1648672027578,
+        "duration" : 6162
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Текст 1-й кнопки суммы",
-      "uid" : "76891aacba88e4e7",
+      "uid" : "cd88dbb3fb5a60fe",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671667381,
-        "stop" : 1648671679284,
-        "duration" : 11903
+        "start" : 1648672027712,
+        "stop" : 1648672034795,
+        "duration" : 7083
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Текст 2-й кнопки суммы",
-      "uid" : "5ae544b2235fb11b",
+      "uid" : "8a7a2b562207b3c9",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671679299,
-        "stop" : 1648671684829,
-        "duration" : 5530
+        "start" : 1648672034883,
+        "stop" : 1648672045866,
+        "duration" : 10983
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Текст 3-й кнопки суммы",
-      "uid" : "f010cdebe089fa3f",
+      "uid" : "41700e1838992bb2",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671684956,
-        "stop" : 1648671691216,
-        "duration" : 6260
+        "start" : 1648672045913,
+        "stop" : 1648672054733,
+        "duration" : 8820
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Текст 4-й кнопки суммы",
-      "uid" : "14bd093928e7e5d1",
+      "uid" : "224e43d385c4914b",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671691384,
-        "stop" : 1648671702800,
-        "duration" : 11416
+        "start" : 1648672054740,
+        "stop" : 1648672060552,
+        "duration" : 5812
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Проверка чекбокса соглашений",
-      "uid" : "b4605d8c1333798a",
+      "uid" : "acbae882a0e6de44",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671702965,
-        "stop" : 1648671710908,
-        "duration" : 7943
+        "start" : 1648672060681,
+        "stop" : 1648672066845,
+        "duration" : 6164
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Клик по 1-й звезде",
-      "uid" : "4dc5a731c62815a1",
+      "uid" : "8136da49206aabd5",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671710915,
-        "stop" : 1648671721065,
-        "duration" : 10150
+        "start" : 1648672066974,
+        "stop" : 1648672076338,
+        "duration" : 9364
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Клик по 4-й звезде",
-      "uid" : "d9c1367e425e1102",
+      "uid" : "7aa751d978209bea",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671721070,
-        "stop" : 1648671728547,
-        "duration" : 7477
+        "start" : 1648672076343,
+        "stop" : 1648672081165,
+        "duration" : 4822
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Клик по 5-й звезде",
-      "uid" : "1cd3091c6603a43d",
+      "uid" : "9c4242b2e77f13f8",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671728678,
-        "stop" : 1648671733957,
-        "duration" : 5279
+        "start" : 1648672081290,
+        "stop" : 1648672089575,
+        "duration" : 8285
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Оставить комментарий (4 звезды)",
-      "uid" : "6ad34197e2e1dc28",
+      "uid" : "dbde2c5f89795391",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671734042,
-        "stop" : 1648671744403,
-        "duration" : 10361
+        "start" : 1648672089839,
+        "stop" : 1648672099601,
+        "duration" : 9762
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Выбрать пункт Атмосфера",
-      "uid" : "956ab32008274ed8",
+      "uid" : "43bc53f5185ca86b",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671744450,
-        "stop" : 1648671749408,
-        "duration" : 4958
+        "start" : 1648672099728,
+        "stop" : 1648672106979,
+        "duration" : 7251
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Клик по ссылке пользовательского соглашения",
-      "uid" : "d607e243ce49cd90",
+      "uid" : "bedfa20d83060dc4",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648671749536,
-        "stop" : 1648671758294,
-        "duration" : 8758
+        "start" : 1648672107149,
+        "stop" : 1648672115734,
+        "duration" : 8585
       },
       "flaky" : false,
       "newFailed" : false,

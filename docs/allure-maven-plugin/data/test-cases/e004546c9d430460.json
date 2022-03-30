@@ -1,0 +1,146 @@
+{
+  "uid" : "e004546c9d430460",
+  "name" : "Выбрать пункт Обслуживание",
+  "fullName" : "user.tests.UserPageTests.clickOnServiceRadioButton",
+  "historyId" : "f7e52d4f4d06f8db5e4303468b217349",
+  "time" : {
+    "start" : 1648671945364,
+    "stop" : 1648671949946,
+    "duration" : 4582
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "registerDriver",
+    "time" : {
+      "start" : 1648671933550,
+      "stop" : 1648671933587,
+      "duration" : 37
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initDriver",
+    "time" : {
+      "start" : 1648671945364,
+      "stop" : 1648671948866,
+      "duration" : 3502
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Клик по первой звезде",
+      "time" : {
+        "start" : 1648671948868,
+        "stop" : 1648671949265,
+        "duration" : 397
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Выбрать пункт Обслуживание",
+      "time" : {
+        "start" : 1648671949266,
+        "stop" : 1648671949494,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1648671949494,
+      "stop" : 1648671949945,
+      "duration" : 451
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:user.tests.UserPageTests]/[method:clickOnServiceRadioButton()]"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1648671811586.local"
+  }, {
+    "name" : "thread",
+    "value" : "1110@Mac-1648671811586.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnServiceRadioButton"
+  }, {
+    "name" : "suite",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e004546c9d430460.json",
+  "parameterValues" : [ ]
+}
