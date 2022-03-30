@@ -33,6 +33,6 @@ jobs:
         with: 
           TOKEN: AST5IYAOS7HN66J7LP4D6Q3CIRNMA #${{ secrets.TOKEN }}
           BRANCH: test
-          FOLDER: /Users/runner/work/Web-UI/Web-UI/target/
+          FOLDER: /Users/runner/work/Web-UI/Web-UI/target
           TARGET_FOLDER: docs
         
