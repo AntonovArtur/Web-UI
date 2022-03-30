@@ -30,7 +30,7 @@ jobs:
       - name: pagesDeeploy
         uses: JamesIves/github-pages-deploy-action@3.1.0
         if: always()
-        env: 
+        with: 
           PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: test
           #FOLDER: /Users/runner/work/Web-UI/Web-UI/target
