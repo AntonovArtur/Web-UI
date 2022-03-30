@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Mar 30 18:51:08 UTC 2022","Wed Mar 30 18:51:17 UTC 2022","8860","","user.tests.UserPageTests","","user.tests.UserPageTests","checkUserNameTest","Проверка имени юзера",""
+"passed","Wed Mar 30 18:53:10 UTC 2022","Wed Mar 30 18:53:20 UTC 2022","10089","","user.tests.UserPageTests","","user.tests.UserPageTests","checkUserNameTest","Проверка имени юзера",""
