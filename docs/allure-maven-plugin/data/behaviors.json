@@ -2,13 +2,13 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Проверка имени юзера",
-    "uid" : "4aa15d4a9fd97534",
+    "uid" : "c056cb6bb7dd6d5e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1648658846576,
-      "stop" : 1648658857829,
-      "duration" : 11253
+      "start" : 1648658967737,
+      "stop" : 1648658977123,
+      "duration" : 9386
     },
     "flaky" : false,
     "newFailed" : false,
