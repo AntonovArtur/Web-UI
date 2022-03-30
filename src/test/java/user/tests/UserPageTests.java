@@ -20,7 +20,7 @@ import java.util.Properties;
 public class UserPageTests {
     WebDriver driver;
     private static ChromeOptions options = new ChromeOptions();
-    private Duration duration = Duration.ofSeconds(10);
+    private Duration duration = Duration.ofSeconds(15);
 
 
     @BeforeAll
