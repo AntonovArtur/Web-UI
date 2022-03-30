@@ -28,7 +28,7 @@ jobs:
           name: allure-report
           path: ./target/site
       - name: pagesDeeploy
-        uses: JamesIves/github-pages-deploy-action@4.2.5
+        uses: JamesIves/github-pages-deploy-action@3.1.0
         if: always()
         with: 
           TOKEN: AST5IYAOS7HN66J7LP4D6Q3CIRNMA #${{ secrets.TOKEN }}
