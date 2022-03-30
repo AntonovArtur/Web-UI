@@ -38,5 +38,5 @@ jobs:
           #FOLDER: /Users/runner/work/Web-UI/Web-UI/target
           TARGET_FOLDER: docs
           #FOLDER: /Users/runner/work/Web-UI/Web-UI/target #docs
-          FOLDER: ./target
+          FOLDER: target/site
         
