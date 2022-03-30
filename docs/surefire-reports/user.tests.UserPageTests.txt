@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: user.tests.UserPageTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.064 s - in user.tests.UserPageTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.165 s - in user.tests.UserPageTests
