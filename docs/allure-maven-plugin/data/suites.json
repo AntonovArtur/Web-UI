@@ -1,22 +1,22 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
     "name" : "user.tests.UserPageTests",
     "children" : [ {
       "name" : "Проверка имени юзера",
-      "uid" : "54ed3f489c5d5590",
+      "uid" : "41d7648edf36fda3",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648667002967,
-        "stop" : 1648667011162,
-        "duration" : 8195
+        "start" : 1648667103031,
+        "stop" : 1648667112568,
+        "duration" : 9537
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "e635e0290f1cabcb289c257c378ebc4c"
-  } ]
+  } ],
+  "name" : "suites"
 }
