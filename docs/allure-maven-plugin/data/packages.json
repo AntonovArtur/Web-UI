@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "user.tests.UserPageTests",
+    "children" : [ {
+      "name" : "checkUserNameTest",
+      "uid" : "a345778c58f196b5",
+      "parentUid" : "3314401f80a9549a2bb37978d829f4c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648651320489,
+        "stop" : 1648651331073,
+        "duration" : 10584
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "user.tests.UserPageTests"
+  } ],
+  "name" : "packages"
+}

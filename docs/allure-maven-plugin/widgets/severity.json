@@ -1,0 +1,11 @@
+[ {
+  "uid" : "a345778c58f196b5",
+  "name" : "Проверка имени юзера",
+  "time" : {
+    "start" : 1648651320489,
+    "stop" : 1648651331073,
+    "duration" : 10584
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
