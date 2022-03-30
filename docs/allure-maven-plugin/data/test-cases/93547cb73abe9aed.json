@@ -1,0 +1,167 @@
+{
+  "uid" : "93547cb73abe9aed",
+  "name" : "Оставить комментарий (5 звезд)",
+  "fullName" : "user.tests.UserPageTests.checkTextAreaWithFiveStars",
+  "historyId" : "2a0727235d1866ea70c5a4d91b568aee",
+  "time" : {
+    "start" : 1648677696131,
+    "stop" : 1648677703740,
+    "duration" : 7609
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "registerDriver",
+    "time" : {
+      "start" : 1648677629402,
+      "stop" : 1648677629431,
+      "duration" : 29
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initDriver",
+    "time" : {
+      "start" : 1648677696133,
+      "stop" : 1648677701651,
+      "duration" : 5518
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Клик по 5-й звезде",
+      "time" : {
+        "start" : 1648677701653,
+        "stop" : 1648677701991,
+        "duration" : 338
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Клик по кнопке рассказать подробнее",
+      "time" : {
+        "start" : 1648677701991,
+        "stop" : 1648677702250,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Ввод комментария",
+      "time" : {
+        "start" : 1648677702250,
+        "stop" : 1648677703199,
+        "duration" : 949
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "206ee05da1e2dac3",
+      "name" : "Скриншот страницы",
+      "source" : "206ee05da1e2dac3.png",
+      "type" : "image/png",
+      "size" : 65184
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1648677703350,
+      "stop" : 1648677703740,
+      "duration" : 390
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:user.tests.UserPageTests]/[method:checkTextAreaWithFiveStars()]"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1648677531483.local"
+  }, {
+    "name" : "thread",
+    "value" : "1543@Mac-1648677531483.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkTextAreaWithFiveStars"
+  }, {
+    "name" : "suite",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93547cb73abe9aed.json",
+  "parameterValues" : [ ]
+}

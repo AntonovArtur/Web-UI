@@ -1,0 +1,131 @@
+{
+  "uid" : "d165e2926041392b",
+  "name" : "Проверка чекбокса издержки",
+  "fullName" : "user.tests.UserPageTests.userCommissionCheckboxTest",
+  "historyId" : "e29b3327d1d0019684d8c93db54895f6",
+  "time" : {
+    "start" : 1648672699964,
+    "stop" : 1648672704585,
+    "duration" : 4621
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "registerDriver",
+    "time" : {
+      "start" : 1648672652810,
+      "stop" : 1648672652895,
+      "duration" : 85
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initDriver",
+    "time" : {
+      "start" : 1648672699966,
+      "stop" : 1648672703637,
+      "duration" : 3671
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Проверка чекбокса издержки",
+      "time" : {
+        "start" : 1648672703639,
+        "stop" : 1648672704059,
+        "duration" : 420
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1648672704059,
+      "stop" : 1648672704585,
+      "duration" : 526
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:user.tests.UserPageTests]/[method:userCommissionCheckboxTest()]"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1648671910716.local"
+  }, {
+    "name" : "thread",
+    "value" : "1761@Mac-1648671910716.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "userCommissionCheckboxTest"
+  }, {
+    "name" : "suite",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d165e2926041392b.json",
+  "parameterValues" : [ ]
+}

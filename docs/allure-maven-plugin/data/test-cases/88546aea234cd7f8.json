@@ -1,0 +1,137 @@
+{
+  "uid" : "88546aea234cd7f8",
+  "name" : "Проверка имени юзера",
+  "fullName" : "user.tests.UserPageTests.checkUserNameTest",
+  "historyId" : "3aa7071d91052635a468c1329c6c8c0",
+  "time" : {
+    "start" : 1648666479367,
+    "stop" : 1648666487773,
+    "duration" : 8406
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "registerDriver",
+    "time" : {
+      "start" : 1648666479289,
+      "stop" : 1648666479301,
+      "duration" : 12
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initDriver",
+    "time" : {
+      "start" : 1648666479374,
+      "stop" : 1648666484400,
+      "duration" : 5026
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Проверка имени юзера",
+      "time" : {
+        "start" : 1648666485647,
+        "stop" : 1648666487219,
+        "duration" : 1572
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "c0452c1e489f2fb8",
+      "name" : "Скриншот страницы",
+      "source" : "c0452c1e489f2fb8.png",
+      "type" : "image/png",
+      "size" : 57851
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1648666487360,
+      "stop" : 1648666487763,
+      "duration" : 403
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:user.tests.UserPageTests]/[method:checkUserNameTest()]"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1648666399967.local"
+  }, {
+    "name" : "thread",
+    "value" : "1484@Mac-1648666399967.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkUserNameTest"
+  }, {
+    "name" : "suite",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88546aea234cd7f8.json",
+  "parameterValues" : [ ]
+}

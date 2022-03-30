@@ -27,7 +27,7 @@ public class BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    public static void getProperties() throws InterruptedException {
+    public static void getProperties() {
 
         try (InputStream output = new FileInputStream("src/main/resources/Login.properties")) {
             properties.load(output);

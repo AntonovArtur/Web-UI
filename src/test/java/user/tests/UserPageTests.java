@@ -20,17 +20,19 @@ import java.util.Properties;
 public class UserPageTests {
     WebDriver driver;
     private static ChromeOptions options = new ChromeOptions();
-    private Duration duration = Duration.ofSeconds(5);
+    private Duration duration = Duration.ofSeconds(20);
+
 
     @BeforeAll
     static void registerDriver() {
         //WebDriverManager.chromedriver().setup();
         System.out.println(new  Properties(System.getProperties()).getProperty("user.dir"));
         System.setProperty("webdriver.chrome.driver",new  Properties(System.getProperties()).getProperty("user.dir") + "/src/main/resources/chromedriver");
-        options.setPageLoadStrategy(PageLoadStrategy.NONE);
+        //options.setPageLoadStrategy(PageLoadStrategy.NONE);
+
         options.addArguments("--dns-prefetch-disable",/* "--window-size=600,920", */"--ignore-certificate-errors");
         options.addArguments("--headless","--disable-gpu","--lang=ru","--no-sandbox");
-//dfjhe
+//
     }
 
     @BeforeEach
@@ -55,7 +57,7 @@ public class UserPageTests {
 
     @DisplayName("Текст 1-й кнопки суммы")
     @Test
-    public void checkSumButton_1() throws InterruptedException {
+    public void checkSumButton_1() {
 
         new UserPage(driver)
                 .checkSumButton_1();
@@ -63,23 +65,23 @@ public class UserPageTests {
 
     @DisplayName("Текст 2-й кнопки суммы")
     @Test
-    public void checkSumButton_2() throws InterruptedException {
+    public void checkSumButton_2() {
         new UserPage(driver)
                 .checkSumButton_2();
     }
 
     @DisplayName("Текст 3-й кнопки суммы")
     @Test
-    public void checkSumButton_3() throws InterruptedException {
+    public void checkSumButton_3() {
         new UserPage(driver)
                 .checkSumButton_3();
     }
 
     @DisplayName("Текст 4-й кнопки суммы")
     @Test
-    public void checkSumButton_4() throws InterruptedException {
+    public void checkSumButton_4() {
         new UserPage(driver)
-                .checkSumButton_3();
+                .checkSumButton_4();
     }
 
     @DisplayName("Клик по ссылке пользовательского соглашения")
@@ -262,7 +264,7 @@ public class UserPageTests {
                 .clickOnPayByCardBtn();
         new CustomLogger().beforeQuit(driver);
     }
-
+//
 
     @AfterEach
     void closeDriver() {
