@@ -1,10 +1,10 @@
 [ {
-  "uid" : "95ed451232658dad",
+  "uid" : "6ee6fc69d9e14d0c",
   "name" : "Проверка имени юзера",
   "time" : {
-    "start" : 1648661714840,
-    "stop" : 1648661723810,
-    "duration" : 8970
+    "start" : 1648661815526,
+    "stop" : 1648661825470,
+    "duration" : 9944
   },
   "status" : "passed",
   "severity" : "normal"
