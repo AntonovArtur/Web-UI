@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
-      - name: Maven Package
+      - name: Maven test
         run: mvn -B clean test
       - name: allure  report
         run: mvn allure:report
@@ -31,7 +31,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.1.0
         if: always()
         with: 
-          PERSONAL_TOKEN: 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 #${{ secrets.TOKEN }}
+          #PERSONAL_TOKEN: ${{ secrets.TOKEN }}
           BRANCH: test
           FOLDER: /Users/runner/work/Web-UI/Web-UI/target
           TARGET_FOLDER: docs
