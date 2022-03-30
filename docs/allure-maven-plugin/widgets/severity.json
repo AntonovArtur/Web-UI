@@ -1,270 +1,270 @@
 [ {
-  "uid" : "8db16ed4d2d381d6",
-  "name" : "Клик по кнопке рассказать подробнее (5 звезд)",
-  "time" : {
-    "start" : 1648671999066,
-    "stop" : 1648672004351,
-    "duration" : 5285
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8136da49206aabd5",
-  "name" : "Клик по 1-й звезде",
-  "time" : {
-    "start" : 1648672066974,
-    "stop" : 1648672076338,
-    "duration" : 9364
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6bab4c40dd577945",
-  "name" : "Клик по 3-й звезде",
-  "time" : {
-    "start" : 1648671981222,
-    "stop" : 1648671985351,
-    "duration" : 4129
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8a7a2b562207b3c9",
-  "name" : "Текст 2-й кнопки суммы",
-  "time" : {
-    "start" : 1648672034883,
-    "stop" : 1648672045866,
-    "duration" : 10983
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "156e99950ccdfd52",
-  "name" : "Клик по кнопке рассказать подробнее (4 звезды)",
-  "time" : {
-    "start" : 1648671955156,
-    "stop" : 1648671959864,
-    "duration" : 4708
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bf483b8ee07e39cd",
-  "name" : "Выбрать пункт Качество блюд",
-  "time" : {
-    "start" : 1648671959868,
-    "stop" : 1648671964294,
-    "duration" : 4426
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8b3db77d36aa1fe2",
-  "name" : "Выбрать пункт Чистота",
-  "time" : {
-    "start" : 1648671985356,
-    "stop" : 1648671989726,
-    "duration" : 4370
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9c4242b2e77f13f8",
-  "name" : "Клик по 5-й звезде",
-  "time" : {
-    "start" : 1648672081290,
-    "stop" : 1648672089575,
-    "duration" : 8285
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e244b33434215813",
-  "name" : "Клик по кнопке Оплатить картой",
-  "time" : {
-    "start" : 1648671969230,
-    "stop" : 1648671977069,
-    "duration" : 7839
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cd88dbb3fb5a60fe",
-  "name" : "Текст 1-й кнопки суммы",
-  "time" : {
-    "start" : 1648672027712,
-    "stop" : 1648672034795,
-    "duration" : 7083
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "224e43d385c4914b",
-  "name" : "Текст 4-й кнопки суммы",
-  "time" : {
-    "start" : 1648672054740,
-    "stop" : 1648672060552,
-    "duration" : 5812
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e004546c9d430460",
+  "uid" : "956280fe2f8a22bb",
   "name" : "Выбрать пункт Обслуживание",
   "time" : {
-    "start" : 1648671945364,
-    "stop" : 1648671949946,
-    "duration" : 4582
+    "start" : 1648672303677,
+    "stop" : 1648672308444,
+    "duration" : 4767
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bedfa20d83060dc4",
-  "name" : "Клик по ссылке пользовательского соглашения",
+  "uid" : "b60f6f59cda82bd4",
+  "name" : "Текст 1-й кнопки суммы",
   "time" : {
-    "start" : 1648672107149,
-    "stop" : 1648672115734,
-    "duration" : 8585
+    "start" : 1648672381819,
+    "stop" : 1648672390137,
+    "duration" : 8318
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "43bc53f5185ca86b",
-  "name" : "Выбрать пункт Атмосфера",
+  "uid" : "705a58a050b7a108",
+  "name" : "Клик по кнопке рассказать подробнее (5 звезд)",
   "time" : {
-    "start" : 1648672099728,
-    "stop" : 1648672106979,
-    "duration" : 7251
+    "start" : 1648672358355,
+    "stop" : 1648672362733,
+    "duration" : 4378
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d367652650a2cf7d",
-  "name" : "Проверка имени юзера",
-  "time" : {
-    "start" : 1648671949951,
-    "stop" : 1648671955146,
-    "duration" : 5195
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6407892e33c56c8",
-  "name" : "Удаление суммы",
-  "time" : {
-    "start" : 1648671933652,
-    "stop" : 1648671945236,
-    "duration" : 11584
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7aa751d978209bea",
+  "uid" : "5d5364e56cada61f",
   "name" : "Клик по 4-й звезде",
   "time" : {
-    "start" : 1648672076343,
-    "stop" : 1648672081165,
-    "duration" : 4822
+    "start" : 1648672432103,
+    "stop" : 1648672439922,
+    "duration" : 7819
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b9c8d38a1a458df3",
-  "name" : "Оставить комментарий (5 звезд)",
+  "uid" : "4fbed72f019bae19",
+  "name" : "Текст 4-й кнопки суммы",
   "time" : {
-    "start" : 1648672004356,
-    "stop" : 1648672013557,
-    "duration" : 9201
+    "start" : 1648672409874,
+    "stop" : 1648672415891,
+    "duration" : 6017
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "dbde2c5f89795391",
-  "name" : "Оставить комментарий (4 звезды)",
-  "time" : {
-    "start" : 1648672089839,
-    "stop" : 1648672099601,
-    "duration" : 9762
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "acbae882a0e6de44",
+  "uid" : "ba0f3fa773459d87",
   "name" : "Проверка чекбокса соглашений",
   "time" : {
-    "start" : 1648672060681,
-    "stop" : 1648672066845,
-    "duration" : 6164
+    "start" : 1648672415896,
+    "stop" : 1648672424818,
+    "duration" : 8922
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "41700e1838992bb2",
-  "name" : "Текст 3-й кнопки суммы",
+  "uid" : "9a63e906669ba4df",
+  "name" : "Клик по кнопке Оплатить картой",
   "time" : {
-    "start" : 1648672045913,
-    "stop" : 1648672054733,
-    "duration" : 8820
+    "start" : 1648672329013,
+    "stop" : 1648672336838,
+    "duration" : 7825
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8b506d0c18bb64cc",
-  "name" : "Оставить комментарий (3 звезды)",
-  "time" : {
-    "start" : 1648672021416,
-    "stop" : 1648672027578,
-    "duration" : 6162
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9a9e580b8b43552c",
-  "name" : "Клик по 2-й звезде",
-  "time" : {
-    "start" : 1648672013684,
-    "stop" : 1648672021286,
-    "duration" : 7602
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "502cd47f33f30a3d",
-  "name" : "Клик по ссылке Политика обработки персональных данных",
-  "time" : {
-    "start" : 1648671964299,
-    "stop" : 1648671969226,
-    "duration" : 4927
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "beacf8e1b91c2af8",
-  "name" : "Оставить комментарий (1 звездa)",
-  "time" : {
-    "start" : 1648671994395,
-    "stop" : 1648671999063,
-    "duration" : 4668
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "744d6bb46e62f9",
-  "name" : "Проверка чекбокса издержки",
-  "time" : {
-    "start" : 1648671977077,
-    "stop" : 1648671981216,
-    "duration" : 4139
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7059433ebea542da",
+  "uid" : "9aeb374c9783f2c2",
   "name" : "Оставить комментарий (2 звезды)",
   "time" : {
-    "start" : 1648671989732,
-    "stop" : 1648671994349,
-    "duration" : 4617
+    "start" : 1648672349186,
+    "stop" : 1648672353708,
+    "duration" : 4522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad7488baabc935bf",
+  "name" : "Оставить комментарий (3 звезды)",
+  "time" : {
+    "start" : 1648672373116,
+    "stop" : 1648672381681,
+    "duration" : 8565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf50442533e322f2",
+  "name" : "Оставить комментарий (4 звезды)",
+  "time" : {
+    "start" : 1648672446284,
+    "stop" : 1648672454613,
+    "duration" : 8329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d6a99f6e9ffe8ff",
+  "name" : "Текст 3-й кнопки суммы",
+  "time" : {
+    "start" : 1648672396212,
+    "stop" : 1648672409592,
+    "duration" : 13380
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2058867be83c85ba",
+  "name" : "Текст 2-й кнопки суммы",
+  "time" : {
+    "start" : 1648672390222,
+    "stop" : 1648672396084,
+    "duration" : 5862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81c48ac589073b91",
+  "name" : "Оставить комментарий (1 звездa)",
+  "time" : {
+    "start" : 1648672353714,
+    "stop" : 1648672358351,
+    "duration" : 4637
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99d3c2cd893bffbf",
+  "name" : "Удаление суммы",
+  "time" : {
+    "start" : 1648672290297,
+    "stop" : 1648672303472,
+    "duration" : 13175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64130436a1d8ed96",
+  "name" : "Оставить комментарий (5 звезд)",
+  "time" : {
+    "start" : 1648672362738,
+    "stop" : 1648672368300,
+    "duration" : 5562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee27f178641940b7",
+  "name" : "Выбрать пункт Атмосфера",
+  "time" : {
+    "start" : 1648672454739,
+    "stop" : 1648672462925,
+    "duration" : 8186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f1abe15d0a0060e",
+  "name" : "Клик по кнопке рассказать подробнее (4 звезды)",
+  "time" : {
+    "start" : 1648672314177,
+    "stop" : 1648672319113,
+    "duration" : 4936
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bf931893a455027",
+  "name" : "Клик по 3-й звезде",
+  "time" : {
+    "start" : 1648672340806,
+    "stop" : 1648672344926,
+    "duration" : 4120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e63c7f411964c908",
+  "name" : "Клик по 5-й звезде",
+  "time" : {
+    "start" : 1648672439999,
+    "stop" : 1648672446279,
+    "duration" : 6280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "201fd3c398f7614b",
+  "name" : "Проверка имени юзера",
+  "time" : {
+    "start" : 1648672308456,
+    "stop" : 1648672314170,
+    "duration" : 5714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "596990f686f3f20c",
+  "name" : "Выбрать пункт Чистота",
+  "time" : {
+    "start" : 1648672344931,
+    "stop" : 1648672349180,
+    "duration" : 4249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6e7c01e384ab7fe",
+  "name" : "Клик по 2-й звезде",
+  "time" : {
+    "start" : 1648672368309,
+    "stop" : 1648672373111,
+    "duration" : 4802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7720fa67420c144b",
+  "name" : "Выбрать пункт Качество блюд",
+  "time" : {
+    "start" : 1648672319124,
+    "stop" : 1648672323757,
+    "duration" : 4633
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c48d9aed491ce74",
+  "name" : "Клик по ссылке Политика обработки персональных данных",
+  "time" : {
+    "start" : 1648672323763,
+    "stop" : 1648672329007,
+    "duration" : 5244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16525544ab8d26b3",
+  "name" : "Клик по 1-й звезде",
+  "time" : {
+    "start" : 1648672424861,
+    "stop" : 1648672431977,
+    "duration" : 7116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcb1f91c67a74b32",
+  "name" : "Проверка чекбокса издержки",
+  "time" : {
+    "start" : 1648672336843,
+    "stop" : 1648672340801,
+    "duration" : 3958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7d439c0837bb9cf",
+  "name" : "Клик по ссылке пользовательского соглашения",
+  "time" : {
+    "start" : 1648672463053,
+    "stop" : 1648672473425,
+    "duration" : 10372
   },
   "status" : "passed",
   "severity" : "normal"
