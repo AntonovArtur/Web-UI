@@ -53,7 +53,7 @@ public class UserPageTests {
                 .checkUserName();
         new CustomLogger().beforeQuit(driver);
     }
-//sd
+//sdf
 //    @DisplayName("Текст 1-й кнопки суммы")
 //    @Test
 //    public void checkSumButton_1() {
