@@ -263,7 +263,7 @@ public class UserPageTests {
                 .clickOnPayByCardBtn();
         new CustomLogger().beforeQuit(driver);
     }
-
+//
 
     @AfterEach
     void closeDriver() {
