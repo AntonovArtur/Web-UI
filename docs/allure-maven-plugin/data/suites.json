@@ -4,13 +4,13 @@
     "name" : "user.tests.UserPageTests",
     "children" : [ {
       "name" : "Проверка имени юзера",
-      "uid" : "b8e2e505a3e158dd",
+      "uid" : "6563c047b4d47b3",
       "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1648663288083,
-        "stop" : 1648663296684,
-        "duration" : 8601
+        "start" : 1648663384603,
+        "stop" : 1648663393083,
+        "duration" : 8480
       },
       "flaky" : false,
       "newFailed" : false,
