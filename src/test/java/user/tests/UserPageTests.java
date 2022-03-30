@@ -29,6 +29,7 @@ public class UserPageTests {
         System.out.println(new  Properties(System.getProperties()).getProperty("user.dir"));
         System.setProperty("webdriver.chrome.driver",new  Properties(System.getProperties()).getProperty("user.dir") + "/src/main/resources/chromedriver");
         //options.setPageLoadStrategy(PageLoadStrategy.NONE);
+
         options.addArguments("--dns-prefetch-disable",/* "--window-size=600,920", */"--ignore-certificate-errors");
         options.addArguments("--headless","--disable-gpu","--lang=ru","--no-sandbox");
 //
