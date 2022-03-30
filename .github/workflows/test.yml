@@ -33,6 +33,7 @@ jobs:
         env: 
           PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: test
-          FOLDER: /Users/runner/work/Web-UI/Web-UI/target
-          TARGET_FOLDER: docs
+          #FOLDER: /Users/runner/work/Web-UI/Web-UI/target
+          #TARGET_FOLDER: docs
+          FOLDER: docs
         
