@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Mac-1648649814338.local",
+    "children" : [ {
+      "name" : "1083@Mac-1648649814338.local.main(1)",
+      "children" : [ {
+        "name" : "Проверка имени юзера",
+        "uid" : "d8a49d3e3f1cac2f",
+        "parentUid" : "5fac739cbcfdf2ecc2d9dc75ad718ecc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648649931148,
+          "stop" : 1648649939993,
+          "duration" : 8845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5fac739cbcfdf2ecc2d9dc75ad718ecc"
+    } ],
+    "uid" : "5283bdeed16f090bd7cec6fef4b408df"
+  } ]
+}

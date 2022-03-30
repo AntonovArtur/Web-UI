@@ -1,0 +1,6 @@
+user/BaseTest.class
+user/tests/UserPageTests.class
+user/User.class
+user/pages/UserPage.class
+user/BasePage.class
+user/tests/PayByCardPage.class
