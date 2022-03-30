@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "user.tests.UserPageTests",
+    "children" : [ {
+      "name" : "Проверка имени юзера",
+      "uid" : "91a4487470a94737",
+      "parentUid" : "e635e0290f1cabcb289c257c378ebc4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648666767392,
+        "stop" : 1648666775648,
+        "duration" : 8256
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e635e0290f1cabcb289c257c378ebc4c"
+  } ],
+  "name" : "suites"
+}
