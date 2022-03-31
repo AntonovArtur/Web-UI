@@ -61,7 +61,7 @@ public class UserPageTests {
         new UserPage(driver)
                 .checkSumButton_1();
     }
-
+//
     @DisplayName("Текст 2-й кнопки суммы")
     @Test
     public void checkSumButton_2() throws InterruptedException {
