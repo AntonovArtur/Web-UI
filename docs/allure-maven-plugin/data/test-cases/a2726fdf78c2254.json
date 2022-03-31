@@ -1,0 +1,146 @@
+{
+  "uid" : "a2726fdf78c2254",
+  "name" : "Выбрать пункт Качество блюд",
+  "fullName" : "user.tests.UserPageTests.clickOnQualityDishesRadioButton",
+  "historyId" : "4fe7554d8b573e911ff897d2f0fa37ad",
+  "time" : {
+    "start" : 1648679765399,
+    "stop" : 1648679770812,
+    "duration" : 5413
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "registerDriver",
+    "time" : {
+      "start" : 1648679733506,
+      "stop" : 1648679733567,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "initDriver",
+    "time" : {
+      "start" : 1648679765400,
+      "stop" : 1648679769518,
+      "duration" : 4118
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Клик по первой звезде",
+      "time" : {
+        "start" : 1648679769519,
+        "stop" : 1648679770080,
+        "duration" : 561
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Выбрать пункт Качество блюд",
+      "time" : {
+        "start" : 1648679770081,
+        "stop" : 1648679770334,
+        "duration" : 253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1648679770334,
+      "stop" : 1648679770812,
+      "duration" : 478
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:user.tests.UserPageTests]/[method:clickOnQualityDishesRadioButton()]"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1648679593118.local"
+  }, {
+    "name" : "thread",
+    "value" : "1116@Mac-1648679593118.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickOnQualityDishesRadioButton"
+  }, {
+    "name" : "suite",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2726fdf78c2254.json",
+  "parameterValues" : [ ]
+}

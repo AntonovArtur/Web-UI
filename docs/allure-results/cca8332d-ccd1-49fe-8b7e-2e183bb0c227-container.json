@@ -1,0 +1,1 @@
+{"uuid":"cca8332d-ccd1-49fe-8b7e-2e183bb0c227","name":"UserPageTests","children":["12a5607f-830f-42d7-bc75-6301fe01acef"],"befores":[{"name":"registerDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1648650704090,"stop":1648650704102}],"afters":[],"start":1648650704053,"stop":1648650712844}

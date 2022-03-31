@@ -1,0 +1,143 @@
+{
+  "uid" : "303927dad0abe550",
+  "name" : "Проверка чекбокса соглашений",
+  "fullName" : "user.tests.UserPageTests.personalDataAgreementCheckboxTest",
+  "historyId" : "61449b1a3bbd417ec7e3493dec65e256",
+  "time" : {
+    "start" : 1648674520332,
+    "stop" : 1648674525369,
+    "duration" : 5037
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "registerDriver",
+    "time" : {
+      "start" : 1648674404077,
+      "stop" : 1648674404133,
+      "duration" : 56
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "initDriver",
+    "time" : {
+      "start" : 1648674520332,
+      "stop" : 1648674524133,
+      "duration" : 3801
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Проверка чекбокса соглашений",
+      "time" : {
+        "start" : 1648674524230,
+        "stop" : 1648674524520,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "a5961f0d8b1cf33a",
+      "name" : "Скриншот страницы",
+      "source" : "a5961f0d8b1cf33a.png",
+      "type" : "image/png",
+      "size" : 77460
+    }, {
+      "uid" : "8cb0ccf331afbbd7",
+      "name" : "Скриншот страницы",
+      "source" : "8cb0ccf331afbbd7.png",
+      "type" : "image/png",
+      "size" : 66538
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "closeDriver",
+    "time" : {
+      "start" : 1648674524814,
+      "stop" : 1648674525369,
+      "duration" : 555
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:user.tests.UserPageTests]/[method:personalDataAgreementCheckboxTest()]"
+  }, {
+    "name" : "host",
+    "value" : "Mac-1648673944230.local"
+  }, {
+    "name" : "thread",
+    "value" : "1409@Mac-1648673944230.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "testClass",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "personalDataAgreementCheckboxTest"
+  }, {
+    "name" : "suite",
+    "value" : "user.tests.UserPageTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "303927dad0abe550.json",
+  "parameterValues" : [ ]
+}

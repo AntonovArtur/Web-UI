@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "e635e0290f1cabcb289c257c378ebc4c",
+    "name" : "user.tests.UserPageTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 27,
+      "unknown" : 0,
+      "total" : 27
+    }
+  } ]
+}
