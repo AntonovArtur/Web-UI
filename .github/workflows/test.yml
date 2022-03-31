@@ -17,5 +17,26 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.8
-      - name: Maven Package
+      - name: Maven test
         run: mvn -B clean test
+      - name: allure  report
+        run: mvn allure:report
+      - name: Allure
+        if: always()
+        uses: actions/upload-artifact@v1
+        with:
+          name: allure-report
+          path: ./target/site
+      - name: pagesDeeploy
+        uses: JamesIves/github-pages-deploy-action@3.1.0
+        if: always()
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        with: 
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: test
+          #FOLDER: /Users/runner/work/Web-UI/Web-UI/target
+          TARGET_FOLDER: docs
+          #FOLDER: /Users/runner/work/Web-UI/Web-UI/target #docs
+          FOLDER: target/site
+        
